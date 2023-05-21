@@ -1,0 +1,29 @@
+.shopSec {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+  height: fit-content;
+}
+
+.shopCards {
+  width: 100%;
+  /* height: 400px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: fit-content;
+}
+
+@media (max-width:1200px) {
+  .shopCards{
+    /* height: 450px; */
+  }
+  .shopCards {
+    justify-content: center;
+
+  }
+  
+}

@@ -1,0 +1,20 @@
+.seenSec {
+margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 253px;
+  width: 87.5%;
+  box-sizing: border-box;
+}
+
+.seenSec img{
+    width: 100%;
+    height: 43px;
+}
+
+@media (max-width:600px) {
+  .seenSec{
+    width: 100%;
+  } 
+}

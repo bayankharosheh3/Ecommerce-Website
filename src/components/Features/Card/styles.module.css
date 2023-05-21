@@ -1,0 +1,111 @@
+.cardContent {
+  width: 263px;
+  position: relative;
+  margin-bottom: 39px;
+}
+
+.cardContent:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+.cardContent img {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.imgCon {
+  height: 390px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cardContent p {
+  margin: 0;
+  opacity: 1;
+  color: rgba(51, 51, 58, 1);
+  font-family: "VLNewParisHeadline";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 25px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.cardContent .price {
+  opacity: 1;
+  color: rgba(51, 51, 58, 1);
+  font-family: "ProximaNova-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.price:before {
+  content: "£";
+}
+
+
+.cardContent .label {
+  display: inline-block;
+  position: absolute;
+  opacity: 1;
+  color: rgba(255, 255, 255, 1);
+  font-family: "ProximaNova-Regular";
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: rgba(255, 96, 8, 1);
+  width: 50px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+}
+
+.empty {
+  width: 0px;
+}
+
+.quickBtn {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
+  visibility: hidden;
+}
+
+.cardContent:hover .quickBtn {
+  display: flex;
+  visibility: visible;
+}
+.quickBtn button {
+  width: 180px;
+  height: 50px;
+  border: transparent;
+  opacity: 1;
+  background-color: rgba(51, 51, 58, 1);
+  opacity: 1;
+  color: rgba(255, 255, 255, 1);
+  font-family: "ProximaNova-Bold";
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 20px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,72 @@
+@import url(../../style/vars.css);
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header {
+  width: 80%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.leftSide {
+  width: 100%;
+  display: flex;
+}
+.rightSide {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.matterIcon {
+  width: 123px;
+  height: 40px;
+}
+
+.menuBtn {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50px;
+  height: 18px;
+  margin: 0px 20px 0px 30px;
+  background-color: transparent;
+  border: transparent;
+}
+
+.leftIcon {
+  width: 100%;
+}
+
+.bar {
+  height: 2px;
+  width: 100%;
+  background-color: var(--main-color);
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .menuBtn {
+    display: flex;
+  }
+
+  .leftIcon {
+    display: none;
+    position: absolute;
+    top: 120px;
+  }
+  .dNone {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 120px;
+  }
+}
+
+@media (max-width: 450px) {
+  .menuBtn {
+    margin: 0px 10px;
+  }
+}

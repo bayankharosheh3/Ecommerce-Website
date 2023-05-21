@@ -1,0 +1,36 @@
+.description {
+  width: 100%;
+}
+
+.secondRow {
+  height: 130px;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px RGB(249, 248, 246);
+}
+
+.descriptionTitle {
+  opacity: 1;
+  color: rgba(0, 0, 0, 1);
+  font-family: "ProximaNova-Light";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 30px;
+  padding-bottom: 10px;
+
+}
+
+.description {
+  opacity: 1;
+  color: rgba(102, 102, 102, 1);
+  font-family: "ProximaNova-Light";
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: justified;
+  line-height: 20px;
+}

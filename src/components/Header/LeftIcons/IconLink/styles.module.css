@@ -1,0 +1,20 @@
+
+@import url(../../../../style/vars.css);
+
+.iconLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-color);
+  font-family: "ProximaNova-Semibold";
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-align: left;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}

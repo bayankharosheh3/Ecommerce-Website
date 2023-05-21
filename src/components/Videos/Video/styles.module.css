@@ -1,0 +1,52 @@
+.videoStyle {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 310px;
+  width: 361px;
+
+}
+
+.videoStyle img {
+  height: 240px;
+  width: 100%;
+}
+
+.run .videoIcon {
+  font-size: 50px;
+  opacity: 1;
+  color: rgba(255, 255, 255, 1);
+}
+
+.run {
+  box-sizing: border-box;
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  border: 7px white solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 25%;
+  right: 37%;
+}
+
+.videoDes {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.videoDes p {
+  padding-left: 20px;
+  opacity: 1;
+  color: rgba(51, 51, 58, 1);
+  font-family: "VLNewParisHeadline";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 25px;
+}

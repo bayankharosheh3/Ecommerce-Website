@@ -1,0 +1,45 @@
+.videosSec {
+  width: 100%;
+  opacity: 1;
+  background-color: rgba(252, 252, 252, 1);
+  /* height: 590px; */
+  /* padding-top: 62px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+.videosContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.videosSec button {
+  margin-top: 30px;
+  opacity: 1;
+  color: rgba(255, 255, 255, 1);
+  font-family: "ProximaNova-Bold";
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 20px;
+  text-transform: uppercase;
+  opacity: 1;
+  background-color: rgba(51, 51, 58, 1);
+  height: 40px;
+  width: 130px;
+}
+
+@media (max-width:1200px) {
+
+  .videosContent {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* overflow: scroll; */
+  }
+}

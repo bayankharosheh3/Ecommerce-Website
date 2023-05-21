@@ -1,0 +1,14 @@
+@import url(../../style/vars.css);
+.addsBar {
+  background-color: var(--main-color);
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "ProximaNova-Regular";
+  font-style: normal;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
